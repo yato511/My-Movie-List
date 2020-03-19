@@ -8,9 +8,11 @@ export const searchMovie = text => dispatch => {
 		payload: text
 	});
 };
-export const setLoading = () => ({
-	type: SET_LOADING
-});
+export const setLoading = () => dispatch => {
+	dispatch({
+		type: SET_LOADING
+	});
+};
 
 export const fetchMovies = text => dispatch => {
 	axios

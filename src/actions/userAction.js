@@ -94,6 +94,7 @@ export const getMoreInFullList = (offset, quantity) => (dispatch) => {
 	let list = localStorage.getItem("list");
 	if (list && list.length) {
 		list = list.trim().split(/\s+/);
+		console.log(list);
 		if (offset === 0)
 			dispatch({
 				type: SET_LOADING_LIST,
@@ -104,14 +105,14 @@ export const getMoreInFullList = (offset, quantity) => (dispatch) => {
 				type: SET_LOADING_MORE,
 				payload: true,
 			});
-		if (list.length <= offset) {
+		if (list.length <= offset || list.length === 0) {
 			dispatch({
 				type: GET_MORE_FULL_LIST,
 				payload: [],
 			});
 		} else {
 			const more = list.slice(offset, offset + quantity);
-			console.log(list, more);
+			// console.log(list, more);
 			Promise.all(
 				more.map((id) =>
 					axios

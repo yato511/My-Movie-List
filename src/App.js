@@ -1,6 +1,6 @@
 import React from "react";
 
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 import Homepage from "./components/Homepage";
 import MovieSingle from "./components/MovieSingle";
 import WishList from "./components/WishList";

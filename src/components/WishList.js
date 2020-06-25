@@ -45,7 +45,7 @@ export default function WishList() {
 	const isLoadingMore = useSelector((state) => state.user.isLoadingMore);
 	const list = useSelector((state) => state.user.list);
 	useEffect(() => {
-		dispatch(getMoreInFullList(0, 5));
+		dispatch(getMoreInFullList(fullList.length, 5));
 	}, []);
 	return (
 		<div>

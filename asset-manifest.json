@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/FilmPedia/static/css/main.23f83ffd.chunk.css",
-    "main.js": "/FilmPedia/static/js/main.2896f524.chunk.js",
-    "main.js.map": "/FilmPedia/static/js/main.2896f524.chunk.js.map",
+    "main.js": "/FilmPedia/static/js/main.a3a0ea6e.chunk.js",
+    "main.js.map": "/FilmPedia/static/js/main.a3a0ea6e.chunk.js.map",
     "runtime-main.js": "/FilmPedia/static/js/runtime-main.2e20aa01.js",
     "runtime-main.js.map": "/FilmPedia/static/js/runtime-main.2e20aa01.js.map",
     "static/js/2.58ae9418.chunk.js": "/FilmPedia/static/js/2.58ae9418.chunk.js",
     "static/js/2.58ae9418.chunk.js.map": "/FilmPedia/static/js/2.58ae9418.chunk.js.map",
     "index.html": "/FilmPedia/index.html",
-    "precache-manifest.20a60027f8c493c20d8d978a6d8d07af.js": "/FilmPedia/precache-manifest.20a60027f8c493c20d8d978a6d8d07af.js",
+    "precache-manifest.c6aaf3b86fbd14fd092403f80b8d8f43.js": "/FilmPedia/precache-manifest.c6aaf3b86fbd14fd092403f80b8d8f43.js",
     "service-worker.js": "/FilmPedia/service-worker.js",
     "static/css/main.23f83ffd.chunk.css.map": "/FilmPedia/static/css/main.23f83ffd.chunk.css.map",
     "static/js/2.58ae9418.chunk.js.LICENSE.txt": "/FilmPedia/static/js/2.58ae9418.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.2e20aa01.js",
     "static/js/2.58ae9418.chunk.js",
     "static/css/main.23f83ffd.chunk.css",
-    "static/js/main.2896f524.chunk.js"
+    "static/js/main.a3a0ea6e.chunk.js"
   ]
 }

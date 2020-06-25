@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/MyMovieList/static/css/main.23f83ffd.chunk.css",
-    "main.js": "/MyMovieList/static/js/main.26606f73.chunk.js",
-    "main.js.map": "/MyMovieList/static/js/main.26606f73.chunk.js.map",
-    "runtime-main.js": "/MyMovieList/static/js/runtime-main.7acd6094.js",
-    "runtime-main.js.map": "/MyMovieList/static/js/runtime-main.7acd6094.js.map",
-    "static/js/2.facc22df.chunk.js": "/MyMovieList/static/js/2.facc22df.chunk.js",
-    "static/js/2.facc22df.chunk.js.map": "/MyMovieList/static/js/2.facc22df.chunk.js.map",
-    "index.html": "/MyMovieList/index.html",
-    "precache-manifest.f19213afd5269b31e6f79be5824d37af.js": "/MyMovieList/precache-manifest.f19213afd5269b31e6f79be5824d37af.js",
-    "service-worker.js": "/MyMovieList/service-worker.js",
-    "static/css/main.23f83ffd.chunk.css.map": "/MyMovieList/static/css/main.23f83ffd.chunk.css.map",
-    "static/js/2.facc22df.chunk.js.LICENSE.txt": "/MyMovieList/static/js/2.facc22df.chunk.js.LICENSE.txt",
-    "static/media/spinner.gif": "/MyMovieList/static/media/spinner.e9d9e9f1.gif"
+    "main.css": "/My-Movie-List/static/css/main.23f83ffd.chunk.css",
+    "main.js": "/My-Movie-List/static/js/main.f598eed1.chunk.js",
+    "main.js.map": "/My-Movie-List/static/js/main.f598eed1.chunk.js.map",
+    "runtime-main.js": "/My-Movie-List/static/js/runtime-main.92855359.js",
+    "runtime-main.js.map": "/My-Movie-List/static/js/runtime-main.92855359.js.map",
+    "static/js/2.facc22df.chunk.js": "/My-Movie-List/static/js/2.facc22df.chunk.js",
+    "static/js/2.facc22df.chunk.js.map": "/My-Movie-List/static/js/2.facc22df.chunk.js.map",
+    "index.html": "/My-Movie-List/index.html",
+    "precache-manifest.9ec76fa79b5b70aa6f9d9aba381b710a.js": "/My-Movie-List/precache-manifest.9ec76fa79b5b70aa6f9d9aba381b710a.js",
+    "service-worker.js": "/My-Movie-List/service-worker.js",
+    "static/css/main.23f83ffd.chunk.css.map": "/My-Movie-List/static/css/main.23f83ffd.chunk.css.map",
+    "static/js/2.facc22df.chunk.js.LICENSE.txt": "/My-Movie-List/static/js/2.facc22df.chunk.js.LICENSE.txt",
+    "static/media/spinner.gif": "/My-Movie-List/static/media/spinner.e9d9e9f1.gif"
   },
   "entrypoints": [
-    "static/js/runtime-main.7acd6094.js",
+    "static/js/runtime-main.92855359.js",
     "static/js/2.facc22df.chunk.js",
     "static/css/main.23f83ffd.chunk.css",
-    "static/js/main.26606f73.chunk.js"
+    "static/js/main.f598eed1.chunk.js"
   ]
 }

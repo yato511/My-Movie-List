@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/FilmPedia/static/css/main.76e27cc9.chunk.css",
-    "main.js": "/FilmPedia/static/js/main.b39e058e.chunk.js",
-    "main.js.map": "/FilmPedia/static/js/main.b39e058e.chunk.js.map",
+    "main.css": "/FilmPedia/static/css/main.23f83ffd.chunk.css",
+    "main.js": "/FilmPedia/static/js/main.2896f524.chunk.js",
+    "main.js.map": "/FilmPedia/static/js/main.2896f524.chunk.js.map",
     "runtime-main.js": "/FilmPedia/static/js/runtime-main.2e20aa01.js",
     "runtime-main.js.map": "/FilmPedia/static/js/runtime-main.2e20aa01.js.map",
-    "static/js/2.214f8135.chunk.js": "/FilmPedia/static/js/2.214f8135.chunk.js",
-    "static/js/2.214f8135.chunk.js.map": "/FilmPedia/static/js/2.214f8135.chunk.js.map",
+    "static/js/2.58ae9418.chunk.js": "/FilmPedia/static/js/2.58ae9418.chunk.js",
+    "static/js/2.58ae9418.chunk.js.map": "/FilmPedia/static/js/2.58ae9418.chunk.js.map",
     "index.html": "/FilmPedia/index.html",
-    "precache-manifest.363138cad7fe69bdff7084b8fcd0ee08.js": "/FilmPedia/precache-manifest.363138cad7fe69bdff7084b8fcd0ee08.js",
+    "precache-manifest.20a60027f8c493c20d8d978a6d8d07af.js": "/FilmPedia/precache-manifest.20a60027f8c493c20d8d978a6d8d07af.js",
     "service-worker.js": "/FilmPedia/service-worker.js",
-    "static/css/main.76e27cc9.chunk.css.map": "/FilmPedia/static/css/main.76e27cc9.chunk.css.map",
-    "static/js/2.214f8135.chunk.js.LICENSE.txt": "/FilmPedia/static/js/2.214f8135.chunk.js.LICENSE.txt",
-    "static/media/spinner.gif": "/FilmPedia/static/media/spinner.2c9683e0.gif"
+    "static/css/main.23f83ffd.chunk.css.map": "/FilmPedia/static/css/main.23f83ffd.chunk.css.map",
+    "static/js/2.58ae9418.chunk.js.LICENSE.txt": "/FilmPedia/static/js/2.58ae9418.chunk.js.LICENSE.txt",
+    "static/media/spinner.gif": "/FilmPedia/static/media/spinner.e9d9e9f1.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.2e20aa01.js",
-    "static/js/2.214f8135.chunk.js",
-    "static/css/main.76e27cc9.chunk.css",
-    "static/js/main.b39e058e.chunk.js"
+    "static/js/2.58ae9418.chunk.js",
+    "static/css/main.23f83ffd.chunk.css",
+    "static/js/main.2896f524.chunk.js"
   ]
 }

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
+import { Link } from "react-router-dom";
 import { addMovieToList, removeMovieFromList } from "../actions/userAction";
 import "../css/card.css";
 const na =
@@ -26,7 +27,7 @@ export default function MovieCard({ movie }) {
 					lineHeight: "250px",
 				}}
 			>
-				<a href={"/movie/" + movie.imdbID}>
+				<Link to={"/movie/" + movie.imdbID}>
 					<img
 						src={movie.Poster === "N/A" ? na : movie.Poster}
 						className="card-img-top rounded-0 position-relative"
@@ -49,17 +50,17 @@ export default function MovieCard({ movie }) {
 					>
 						{movie.Year}
 					</span>
-				</a>
+				</Link>
 			</div>
 			<div className="card-body p-2 d-flex flex-row justify-content-between bg-dark">
-				<a
+				<Link
 					className="card-text text-light align-self-center"
-					href={"/movie/" + movie.imdbID}
+					to={"/movie/" + movie.imdbID}
 				>
 					{movie.Title.length > 15
 						? movie.Title.slice(0, 15) + "..."
 						: movie.Title}
-				</a>
+				</Link>
 				{isInList ? (
 					<button
 						type="button"

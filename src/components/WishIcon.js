@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
+import { Link } from "react-router-dom";
 import { getYourList } from "../actions/userAction";
 export default function WishIcon({ x2 }) {
 	const dispatch = useDispatch();
@@ -8,8 +9,8 @@ export default function WishIcon({ x2 }) {
 	}, []);
 	const list = useSelector((state) => state.user.list);
 	return (
-		<a
-			href="/your-list"
+		<Link
+			to="/your-list"
 			className="text-danger"
 			style={{ textDecoration: "none", fontSize: 20, fontWeight: 500 }}
 			data-toggle="tooltip"
@@ -28,6 +29,6 @@ export default function WishIcon({ x2 }) {
 			>
 				{list.length}
 			</span>
-		</a>
+		</Link>
 	);
 }

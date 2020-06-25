@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useHistory } from "react-router-dom";
+import { useHistory, Link } from "react-router-dom";
 import "../css/searchBar.css";
 
 export default function SearchForm({ style }) {
@@ -21,14 +21,14 @@ export default function SearchForm({ style }) {
 						}
 					}}
 				/>
-				<a
+				<Link
 					className="btn btn-lg btn-search btn-search-lg align-self-center"
-					href={input.length ? `/result?title=${input}&page=1` : "/"}
+					to={input.length ? `/result?title=${input}&page=1` : "/"}
 					data-toggle="tooltip"
 					title="Search"
 				>
 					<i className="fas fa-search"></i>
-				</a>
+				</Link>
 			</div>
 		</div>
 	);

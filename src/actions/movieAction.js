@@ -12,7 +12,7 @@ export const getMovieList = (text, page) => (dispatch) => {
 					type: GET_MOVIE_LIST,
 					payload: res.data,
 				});
-			}, 1000);
+			}, 500);
 		})
 		.catch((err) => console.log(err));
 };
@@ -26,7 +26,7 @@ export const getMovieSingle = (id) => (dispatch) => {
 					type: GET_MOVIE_SINGLE,
 					payload: res.data,
 				});
-			}, 1000);
+			}, 500);
 		})
 		.catch((err) => console.log(err));
 };

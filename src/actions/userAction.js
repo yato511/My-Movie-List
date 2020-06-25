@@ -16,7 +16,7 @@ const Toast = Swal.mixin({
 	position: "bottom-start",
 	showConfirmButton: false,
 	timer: 2000,
-	timerProgressBar: false,
+	timerProgressBar: true,
 	onOpen: (toast) => {
 		toast.addEventListener("mouseenter", Swal.stopTimer);
 		toast.addEventListener("mouseleave", Swal.resumeTimer);
@@ -84,7 +84,7 @@ export const getFullList = () => (dispatch) => {
 						type: GET_FULL_LIST,
 						payload: fullList,
 					});
-				}, 1000)
+				}, 500)
 			)
 			.catch((err) => console.log(err));
 	}
@@ -126,7 +126,7 @@ export const getMoreInFullList = (offset, quantity) => (dispatch) => {
 							type: GET_MORE_FULL_LIST,
 							payload: fullList,
 						});
-					}, 1000)
+					}, 500)
 				)
 				.catch((err) => console.log(err));
 		}

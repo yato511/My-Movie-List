@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useHistory } from "react-router-dom";
+import { useHistory, Link } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import "../css/searchBar.css";
 import { getMovieList } from "../actions/movieAction";
@@ -33,9 +33,9 @@ export default function Navbar({ title }) {
 			className="navbar sticky-top"
 			style={style === "solid" ? solidNav : transparentNav}
 		>
-			<a className="navbar-brand ml-sm-2" href="/">
+			<Link className="navbar-brand ml-sm-2" to="/">
 				<h4 className="brand brand-sm">My Movie List</h4>
-			</a>
+			</Link>
 			<span
 				className={
 					"search-bar search-bar-sm ml-auto" +

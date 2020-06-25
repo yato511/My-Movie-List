@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
+import { Link } from "react-router-dom";
 import {
 	removeMovieFromList,
 	getFullList,
@@ -16,8 +17,8 @@ function WishItem({ movie }) {
 				<img src={movie.Poster} className="w-100" alt="Poster" />
 			</div>
 			<div className="col-md-10 d-flex flex-column justify-content-center">
-				<a
-					href={`/movie/${movie.imdbID}`}
+				<Link
+					to={`/movie/${movie.imdbID}`}
 					style={{ textDecoration: "none" }}
 					className="my-1"
 				>
@@ -25,7 +26,7 @@ function WishItem({ movie }) {
 						{movie.Title}{" "}
 						<span className="badge badge-danger">{movie.Year}</span>
 					</h5>
-				</a>
+				</Link>
 				<p className="my-1">
 					<strong>Genre:</strong> {movie.Genre}
 				</p>

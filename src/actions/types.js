@@ -1,4 +1,11 @@
-export const SEARCH_MOVIE = "SEARCH_REDUCER";
-export const FETCH_MOVIE = "FETCH_MOVIE";
-export const FETCH_MOVIES = "FETCH_MOVIES";
+export const GET_MOVIE_LIST = "GET_MOVIE_LIST";
+export const GET_MOVIE_SINGLE = "GET_MOVIE_SINGLE";
 export const SET_LOADING = "SET_LOADING";
+
+export const ADD_MOVIE = "ADD_MOVIE";
+export const REMOVE_MOVIE = "REMOVE_MOVIE";
+export const GET_YOUR_LIST = "GET_YOUR_LIST";
+export const GET_FULL_LIST = "GET_FULL_LIST";
+export const GET_MORE_FULL_LIST = "GET_MORE_FULL_LIST";
+export const SET_LOADING_LIST = "SET_LOADING_LIST";
+export const SET_LOADING_MORE = "SET_LOADING_MORE";

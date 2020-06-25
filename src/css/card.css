@@ -1,0 +1,15 @@
+button {
+	border: none !important;
+}
+
+button:focus {
+	box-shadow: none !important;
+	outline: none !important;
+}
+
+a.card-text:hover {
+	text-decoration: none;
+}
+a.card-text {
+	transition: all 0.1s linear;
+}

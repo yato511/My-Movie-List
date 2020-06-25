@@ -7,6 +7,7 @@ import WishList from "./components/WishList";
 
 import FloatButton from "./components/FloatButton";
 import ResultPage from "./components/ResultPage";
+import NotFound from "./components/NotFound";
 
 export default function App(props) {
 	return (
@@ -15,6 +16,7 @@ export default function App(props) {
 			<Route exact path="/movie/:id" component={MovieSingle} />
 			<Route path="/result/" component={ResultPage} />
 			<Route path="/your-list" component={WishList} />
+			<Route component={NotFound} />
 			<FloatButton />
 		</Switch>
 	);

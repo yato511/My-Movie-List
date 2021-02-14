@@ -6,7 +6,7 @@ export default function WishIcon({ x2 }) {
 	const dispatch = useDispatch();
 	useEffect(() => {
 		dispatch(getYourList());
-	}, []);
+	}, [dispatch]);
 	const list = useSelector((state) => state.user.list);
 	return (
 		<Link
